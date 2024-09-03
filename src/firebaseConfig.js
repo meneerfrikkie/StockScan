@@ -8,16 +8,20 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBgslPQOhGOYu9eSLYav1VaHHxH2dTyMkI",
-  authDomain: "finance-bro-2024.firebaseapp.com",
-  projectId: "finance-bro-2024",
-  storageBucket: "finance-bro-2024.appspot.com",
-  messagingSenderId: "384101466111",
-  appId: "1:384101466111:web:c50336285957c7734671ca",
-  measurementId: "G-FJ7L9G7F9Z"
+  apiKey: "AIzaSyB2KzTeo_3cIW3GkWo4rsq6LDLjw4ewR4g",
+  authDomain: "stockascan.firebaseapp.com",
+  projectId: "stockascan",
+  storageBucket: "stockascan.appspot.com",
+  messagingSenderId: "1060125482730",
+  appId: "1:1060125482730:web:da1f6f3321020509c64193",
+  measurementId: "G-YBJ7313TZP"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 setPersistence(auth, browserSessionPersistence); // Set session persistence
